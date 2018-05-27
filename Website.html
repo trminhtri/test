@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Minh Trí website</title>
+		<meta name="description" content="Bài tập html cơ bản" />
+		<meta name="author" content="Minh Trí" />
+		<meta name="keyword" content="bài html, html cơ bản" />
+		<meta charset="utf-8">
+		<style>
+			#anh{
+				position: absolute;
+				left: 20px;
+				top: 30px;
+				border: 3px solid red;
+			}
+			#div{
+				width: 50%;
+				position: relative;
+				top: 13px;
+				left: 60px;
+				border: 3px dotted blue;
+			}
+			.metal {
+                color: red;
+            }
+            .non-metal {
+                color: blue;
+            }
+            .semi-metal {
+                color: purple;
+            }
+
+		</style>
+	</head>
+	<body>
+		<form action="#" name="Login" method="post">
+			Usermane:<input type="text" name="tendangnhap" /><br/>
+			Password:<input type="Password" name="matkhau" /><br/>
+			<input type="submit" value="Login" name="submit"/>	
+		</form>
+		<div id="div">
+			<h1 style="color: blue" id="top"><i>Headline level 1</i></h1>
+			<h2 style="color: red"><i><strike>Headline level 2</strike></i></h2>
+			<h3 style="color: purple">Headline level 3</h3>
+			<p><img src="https://s-media-cache-ak0.pinimg.com/736x/16/de/5f/16de5f8dd1ffe99f9e169a0605a960b3--book-logo-logo-designing.jpg" height="180px" width="auto"/ id="anh"></p>
+			<h4 style="color: pink">Headline level 4</h4>
+			<h5 style="color: orange">Headline level 5</h5>
+			<h6 style="color: yellow">Headline level 6</h6>
+		</div>
+		<p style="color: blue" ><strong>đoạn văn bản 1</strong></p>
+		<p style="color: purple"><i>đoạn văn bản 2</i></p>
+		
+		<p style="color: green">Trong tài liệu html, có thể <strong>in đậm</strong>, <i>in nghiêng</i> hoặc <strike>gạch ngang</strike> chữ viết.</p>
+		<hr>
+		<h1 style="color: gold">Tóm lại đây là 1 bộ xương chưa hoàn chỉnh của 1 website</h1>
+		<q style="color: violet">Lorem lipsum dolor sit amet</q>
+		<p><cite>-Alexanders-</cite></p>
+		<pre>
+			Đây là đoạn văn bản đinh dạng sẵn.
+			Không dùng thẻ <code>[p]</code>
+		</pre>
+		<p style="color: gold; background-color: purple; font-size: 30px; font-family:Times, Arial; text-align: center">Đây là đoạn văn bản <span style="color: white">có thuộc tính <code>style</code></span> .</p>
+		<h3><i><u>Danh sách các mục có sắp xếp</u></i></h3>
+		<ol type="I">
+			<li>Mục 1</li>
+			<li>Mục 2</li>
+			<li>Mục 3</li>
+			<li>Mục 4</li>
+			<li>Mục 5</li>
+		</ol>
+		<h2 style="color: blue">Danh sách không sắp xếp</h2>
+		<ul>
+			<li>Mục 1</li>
+			<li>Mục 2</li>
+			<li>Mục 3</li>
+			<li>Mục 4</li>
+			<li>Mục 5</li>
+		</ul>
+		<h3 style="color: green"><strong>Danh sách các mục có chú thích</strong></h3>
+		<dl>
+			<dt>HTML</dt>
+			<dd style="font-size: 13px">HyperText Markup Language</dd>
+			<dt>CSS</dt>
+			<dd style="font-size: 13px">Cascading Style Sheet</dd>
+		</dl>
+
+		<h2 style="color: orange"><u>Các mục có link liên kết</u></h2>
+		<p><a style="color: blue" href="a.html" title="Website bằng tiếng Việt" target="_blank">Website tiếng Việt</a></p>
+		<p><a href="newtab.html" title="Newtab là đây" style="color: blue" target="_blank">New tab</a></p>
+		<p><a href="#top" title="Về đâu trang" style="color: blue">Lên đầu trang</a></p>
+		
+		<video controls>
+			<source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4"/>
+		</video>
+		<p><audio controls>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3"/>
+		</audio></p>
+		<p>Trang trống <a href="newtab.html" style="color: black" target="a1">MỚI<a></p>
+		<iframe src="http://giadinh.vnexpress.net" scrolling="auto" width="1200px" height="1000px" name="a1"></iframe>
+		<h1>The Periodic Table</h1>
+
+        <p>
+            There are three broad classes of elements:
+            <strong class="metal">metals</strong>,
+            <strong class="non-metal">non-metals</strong>,
+            and <strong class="semi-metal">semi-metals</strong>.
+        </p>
+        
+        <h2 class="metal">Metals</h2>
+        
+        <ul>
+            <li>Solid</li>
+            <li>Good conductors of electricity</li>
+            <li>Ductile</li>
+            <li>Malleable</li>
+        </ul>
+        
+        <h2 class="non-metal">Non-metals</h2>
+        
+        <ul>
+            <li>Brittle</li>
+            <li>Poor conductors</li>
+        </ul>
+        
+        <h2 class="semi-metal">Semi-metals (Metalloids)</h2>
+        
+        <ul>
+            <li>Partially conduct electricity</li>
+        </ul>
+	</body>
+</html>
